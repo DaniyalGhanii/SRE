@@ -551,7 +551,7 @@ public class HyperSearchResults extends JPanel implements DefaultFocusComponent
 			{
 				Font f = (resultTree != null) ? resultTree.getFont() :
 					UIManager.getFont("Tree.font");
-				styleTag = HtmlUtilities.style2html(prop, f);hh
+				styleTag = HtmlUtilities.style2html(prop, f);
 			}
 		}
 

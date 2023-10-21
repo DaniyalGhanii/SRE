@@ -122,7 +122,7 @@ public class HtmlUtilities
 			int rangeStart = ranges.get(i);
 			int rangeEnd = ranges.get(i + 1);
 			appendString2html(sb, s.substring(lastIndex, rangeStart));
-			sb.append("<span class=\"highlight\">");
+			sb.append("<span class=\"highlightcolor\">");
 			appendString2html(sb, s.substring(rangeStart, rangeEnd));
 			sb.append("</span>");
 			lastIndex = rangeEnd;
